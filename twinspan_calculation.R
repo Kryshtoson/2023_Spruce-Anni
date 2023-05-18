@@ -1,4 +1,9 @@
 library(twinspan)
+install.packages('devtools')
+library(devtools)
+install_github('jaroksa/twinspan')
+devtools::install_github("jarioksa/twinspan")
+devtools::install_github("jarioksa/twinspan")
 library(tidyverse)
 #' ========================================================================
 #' twinspan
