@@ -94,6 +94,8 @@ selection_stats |> ggplot() +
   coord_sf(xlim = c(-10, 30),
            ylim = c(40, 70))
 
+selection_stats |> write_csv('stratification_selection.csv')
+
 #' ========================================================================
 #' twinspan
 #' ========================================================================
